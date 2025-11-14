@@ -6,6 +6,7 @@ Date: 11/11/2025
 AI Usage: AI helped with modifying the "MAIN PROGRAM FOR TESTING" tab of my python file to ensure usability and
 verification of the 2 new classes I made: Archer and Healer. All things added or modified have a comment beside it
 displaying "BONUS CLASS FOR EXTRA CREDIT" to help with readability and for my own sake when explaining what I added.
+Example: AI helped with inheritance structure and method overriding concepts"""
 
 # ============================================================================
 # PROVIDED BATTLE SYSTEM (DO NOT MODIFY)
