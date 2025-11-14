@@ -6,6 +6,18 @@
 
 Build a simple character system that demonstrates mastery of object-oriented programming fundamentals: inheritance, method overriding, polymorphism, and composition. This project focuses on core OOP concepts without the complexity of a full game system.
 
+For this project, I created a Python program to demonstrate **object-oriented programming concepts**, including:  
+
+- **Inheritance** – `Character` → `Player` → specialized classes (`Warrior`, `Mage`, `Rogue`, `Archer`, `Healer`)  
+- **Polymorphism** – the same method (`attack`) behaves differently depending on the class  
+- **Method Overriding** – each class has its own unique attack behaviors  
+- **Composition** – characters can equip `Weapon` objects for bonus damage  
+- **Special Abilities** – each class has unique powers (e.g., `Power Strike`, `Fireball`, `Sneak Attack`)  
+
+I also added **two bonus classes** for extra credit:  
+- **Archer** – a ranged fighter with “Rain of Arrows” 🏹  
+- **Healer** – supports allies with healing 💖
+
 ## 📋 Getting Started
 
 1. **Complete your implementation** in `project2_starter.py`
@@ -34,6 +46,12 @@ Weapon (composition - separate class)
 | Warrior | 120    | 15       | 5     | Power Strike    |
 | Mage    | 80     | 8        | 20    | Fireball        |
 | Rogue   | 90     | 12       | 10    | Sneak Attack    |
+
+### **Extra Stats:**
+| Class   | Health | Strength | Magic | Special Ability |
+|---------|--------|----------|-------|-----------------|
+| Archer  | 85     | 14       | 5     | Rain of Arrows  |
+| Healer  | 90     | 5        | 18    | Heal            |
 
 ## 🎮 Core Functionality
 
@@ -145,3 +163,19 @@ Feel free to add your own creative touches for bonus points:
 - Additional character classes beyond the three required
 - More weapon types with different properties
 - Enhanced special abilities with unique effects
+
+## 📜 Documentation (All-in-One Reference)
+
+This section provides **full instructions and explanations** for running and understanding the project:
+
+### 1. Project Structure
+- **Character Base Class:** Contains `name`, `health`, `strength`, `magic`, `attack()`, `take_damage()`, and `display_stats()`.
+- **Player Class:** Inherits from Character, adds `character_class`, `level`, `experience`, and overrides `display_stats()`.
+- **Specialized Player Classes:**  
+  - **Warrior:** High health/strength, low magic; special attack `Power Strike`.  
+  - **Mage:** Low health/strength, high magic; special attack `Fireball`.  
+  - **Rogue:** Medium stats; chance for critical hits, special attack `Sneak Attack`.  
+  - **Archer (Bonus):** Ranged attacker; `Rain of Arrows` hits multiple targets.  
+  - **Healer (Bonus):** Supports allies with `heal` ability.  
+- **Weapon Class:** Characters can “have” weapons for damage bonus; demonstrates composition.  
+- **SimpleBattle:** Predefined battle system to simulate a fight between any two characters.
