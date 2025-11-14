@@ -47,7 +47,7 @@ Weapon (composition - separate class)
 | Mage    | 80     | 8        | 20    | Fireball        |
 | Rogue   | 90     | 12       | 10    | Sneak Attack    |
 
-### **Extra Stats:**
+### **My Added Extra Stats:**
 | Class   | Health | Strength | Magic | Special Ability |
 |---------|--------|----------|-------|-----------------|
 | Archer  | 85     | 14       | 5     | Rain of Arrows  |
