@@ -179,3 +179,10 @@ This section provides **full instructions and explanations** for running and und
   - **Healer (Bonus):** Supports allies with `heal` ability.  
 - **Weapon Class:** Characters can “have” weapons for damage bonus; demonstrates composition.  
 - **SimpleBattle:** Predefined battle system to simulate a fight between any two characters.
+
+### ✔️ How to Run the Project
+
+To run the full character showcase program:
+
+```bash
+python project2_starter.py
